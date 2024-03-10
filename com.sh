@@ -6,10 +6,10 @@ else
     arg1="$1"
 fi
 
-echo "\nCommitting message: \"$arg1\"\n"
+echo -e "\nCommitting message: \"$arg1\"\n"
 
 git add .
 git commit -m "$arg1"
 git push
 
-echo "\nChanges pushed to remote repository..."
+echo -e "\nChanges pushed to remote repository..."
