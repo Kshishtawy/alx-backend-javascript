@@ -12,4 +12,4 @@ git add .
 git commit -m "$arg1"
 git push
 
-echo -e "\nChanges pushed to remote repository..."
+echo -e "\nChanges pushed to remote repository...\n"
